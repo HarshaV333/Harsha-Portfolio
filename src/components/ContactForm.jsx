@@ -28,7 +28,7 @@ const ContactForm = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:4000/sendmail', formData);
+            const response = await axios.post('https://harsha-portfolio.onrender.com/sendmail', formData);
             console.log("API Response", response);
         } catch (error) {
             return (error.message);
