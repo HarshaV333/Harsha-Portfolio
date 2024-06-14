@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        #wrapper{
+            background-color: aliceblue;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            width: 100vw; 
+            max-height: 600px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .total{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading{
+            font-size: larger;
+            color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div>
+
+        <div id="wrapper">
+            <div class="total">
+                <p class="heading">Name: </p>
+                <p class="answer">${name}</p>
+            </div>
+            <div class="total">
+                <p class="heading">Email: </p>
+                <p class="answer">${email}</p>
+            </div>
+            <div class="total">
+                <p class="heading">Subject: </p>
+                <p class="answer">${subject}</p>
+            </div>
+            <div class="total">
+                <p class="heading">Message: </p>
+                <p class="answer">${message}</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
