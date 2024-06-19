@@ -20,7 +20,8 @@ const data = [
             {skill: "https://res.cloudinary.com/dm6c4cp5j/image/upload/v1718179681/HarshaPortfolio/stack/Github_kiqnbb.svg"} 
         ],
         backgroundImage: "https://res.cloudinary.com/dm6c4cp5j/image/upload/v1718196847/HarshaPortfolio/projects/Screenshot_2024-06-12_182316_fiwvbg.png",
-        deployedLink: "https://study-notion-test.vercel.app/"
+        deployedLink: "https://study-notion-test.vercel.app/",
+        gitHubLink: "https://github.com/HarshaV333/StudyNotion-Test.git"
     },
 
     {
@@ -38,7 +39,8 @@ const data = [
             {skill: "https://res.cloudinary.com/dm6c4cp5j/image/upload/v1718179681/HarshaPortfolio/stack/Github_kiqnbb.svg"}
         ],
         backgroundImage: "https://res.cloudinary.com/dm6c4cp5j/image/upload/v1718196947/HarshaPortfolio/projects/Screenshot_2024-06-12_182524_u9c623.png",
-        deployedLink: "https://secure-gen.netlify.app/"
+        deployedLink: "https://secure-gen.netlify.app/",
+        gitHubLink: "https://github.com/HarshaV333/Secure-Gen.git"
     },
 
     {
@@ -56,7 +58,8 @@ const data = [
             {skill: "https://res.cloudinary.com/dm6c4cp5j/image/upload/v1718179681/HarshaPortfolio/stack/Github_kiqnbb.svg"}
         ],
         backgroundImage: "https://res.cloudinary.com/dm6c4cp5j/image/upload/v1718197463/HarshaPortfolio/projects/Screenshot_2024-06-12_183403_ysbzx4.png",
-        deployedLink: "https://weatherwise-project.netlify.app/"
+        deployedLink: "https://weatherwise-project.netlify.app/",
+        gitHubLink: "https://github.com/HarshaV333/weatherwise.git"
     },
 
     {
@@ -73,7 +76,8 @@ const data = [
             {skill: "https://res.cloudinary.com/dm6c4cp5j/image/upload/v1718179681/HarshaPortfolio/stack/Github_kiqnbb.svg"}
         ],
         backgroundImage: "https://res.cloudinary.com/dm6c4cp5j/image/upload/v1718356524/HarshaPortfolio/projects/Screenshot_2024-06-14_144306_zplgul.png",
-        deployedLink: "https://tic-tac-toe-project-link.netlify.app/"
+        deployedLink: "https://tic-tac-toe-project-link.netlify.app/",
+        gitHubLink: "https://github.com/HarshaV333/tictactoe.git"
     }
 ]
 

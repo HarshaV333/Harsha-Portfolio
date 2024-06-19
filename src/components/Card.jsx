@@ -42,7 +42,7 @@ const Card = ({card}) => {
                 <div className="btn-group">
                     <a href={card.deployedLink} target='_blank'><button className="btn-pink btn-project" >Read More</button></a>
                     
-                    <a href="http://www.facebook.com">
+                    <a href={card.gitHubLink}>
                         <i title="githublink" className="fa-brands fa-github icon" ></i>
                     </a>
                 </div>
